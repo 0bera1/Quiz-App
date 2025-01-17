@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-colors;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-primary/90;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary text-white hover:bg-secondary/90;
+  }
+  
+  .quiz-option {
+    @apply p-4 rounded-lg border-2 cursor-pointer transition-all hover:border-primary;
+  }
+  
+  .quiz-option-selected {
+    @apply border-primary bg-primary/10;
+  }
+  
+  .quiz-option-correct {
+    @apply border-success bg-success/10;
+  }
+  
+  .quiz-option-wrong {
+    @apply border-error bg-error/10;
+  }
+}

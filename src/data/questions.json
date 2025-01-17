@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Türkiye'nin başkenti neresidir?",
+      "options": [
+        "İstanbul",
+        "Ankara",
+        "İzmir",
+        "Bursa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ankara, 13 Ekim 1923'ten beri Türkiye'nin başkentidir."
+    },
+    {
+      "id": 2,
+      "question": "Hangisi bir programlama dili değildir?",
+      "options": [
+        "Python",
+        "HTML",
+        "JavaScript",
+        "Java"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HTML bir işaretleme dilidir, programlama dili değildir."
+    },
+    {
+      "id": 3,
+      "question": "React hangi şirket tarafından geliştirilmiştir?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "Facebook",
+        "Amazon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "React, Facebook (Meta) tarafından geliştirilmiş bir JavaScript kütüphanesidir."
+    },
+    {
+      "id": 4,
+      "question": "TypeScript'in temel amacı nedir?",
+      "options": [
+        "Daha hızlı kod çalıştırmak",
+        "Statik tip kontrolü sağlamak",
+        "Daha az kod yazmak",
+        "Veritabanı işlemlerini kolaylaştırmak"
+      ],
+      "correctAnswer": 1,
+      "explanation": "TypeScript, JavaScript'e statik tip kontrolü ekleyerek daha güvenli kod yazılmasını sağlar."
+    },
+    {
+      "id": 5,
+      "question": "Hangisi bir state yönetim kütüphanesi değildir?",
+      "options": [
+        "Redux",
+        "MobX",
+        "Zustand",
+        "Axios"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Axios bir HTTP istemci kütüphanesidir, state yönetimi için kullanılmaz."
+    },
+    {
+      "id": 6,
+      "question": "CSS'te 'flex' özelliği hangi amaçla kullanılır?",
+      "options": [
+        "Animasyon oluşturmak",
+        "Yazı tipini değiştirmek",
+        "Esnek yerleşim düzeni oluşturmak",
+        "Renk geçişleri yapmak"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Flex, elementleri esnek bir şekilde düzenlemek için kullanılan modern bir CSS özelliğidir."
+    },
+    {
+      "id": 7,
+      "question": "Git'te 'branch' ne işe yarar?",
+      "options": [
+        "Kodları silmek",
+        "Paralel geliştirme yapmak",
+        "Dosyaları şifrelemek",
+        "Sunucuyu yeniden başlatmak"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Branch'ler, ana koddan bağımsız olarak paralel geliştirme yapmayı sağlar."
+    },
+    {
+      "id": 8,
+      "question": "Hangisi bir NoSQL veritabanıdır?",
+      "options": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Oracle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "MongoDB, döküman tabanlı bir NoSQL veritabanıdır."
+    },
+    {
+      "id": 9,
+      "question": "REST API'de 404 status kodu ne anlama gelir?",
+      "options": [
+        "Başarılı",
+        "Sunucu Hatası",
+        "Bulunamadı",
+        "Yetkisiz Erişim"
+      ],
+      "correctAnswer": 2,
+      "explanation": "404 status kodu, istenen kaynağın sunucuda bulunamadığını belirtir."
+    },
+    {
+      "id": 10,
+      "question": "Hangisi bir JavaScript paket yöneticisidir?",
+      "options": [
+        "pip",
+        "npm",
+        "composer",
+        "maven"
+      ],
+      "correctAnswer": 1,
+      "explanation": "npm (Node Package Manager), JavaScript ekosistemi için en popüler paket yöneticisidir."
+    }
+  ]
+} 
