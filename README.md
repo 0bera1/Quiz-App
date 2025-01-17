@@ -1,51 +1,76 @@
-# React + TypeScript + Vite
+# Quiz Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern web teknolojileri ile geliştirilmiş, interaktif bir quiz uygulaması.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎯 Çoktan seçmeli sorular
+- ✨ Modern ve responsive tasarım
+- 📱 Mobil uyumlu arayüz
+- ⚡ Anlık geri bildirim
+- 📊 Detaylı skor takibi
+- 🔄 Yeniden başlatma özelliği
 
-## Expanding the ESLint configuration
+## 🛠️ Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [React](https://reactjs.org/) - UI kütüphanesi
+- [TypeScript](https://www.typescriptlang.org/) - Tip güvenliği
+- [TailwindCSS](https://tailwindcss.com/) - Stil kütüphanesi
+- [Vite](https://vitejs.dev/) - Build aracı
 
-- Configure the top-level `parserOptions` property like this:
+## 📦 Kurulum
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Repoyu klonlayın:
+```bash
+git clone [repo-url]
+cd quiz-app
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. Bağımlılıkları yükleyin:
+```bash
+npm install
 ```
-# Quiz-App
+
+3. Geliştirme sunucusunu başlatın:
+```bash
+npm run dev
+```
+
+4. Tarayıcınızda açın:
+```
+http://localhost:5173
+```
+
+## 📝 Kullanım
+
+1. Uygulama başladığında ilk soru otomatik olarak yüklenir
+2. Her soru için 4 seçenek sunulur
+3. Cevabınızı seçtiğinizde doğru/yanlış geri bildirimi alırsınız
+4. Açıklama kısmında doğru cevabın detaylı açıklamasını görebilirsiniz
+5. Quiz bitiminde toplam skorunuzu görüntüleyebilirsiniz
+6. "Tekrar Dene" butonu ile quizi yeniden başlatabilirsiniz
+
+## 🎯 Soru Kategorileri
+
+- Web Geliştirme
+- Programlama Dilleri
+- Veritabanları
+- Frontend Teknolojileri
+- Backend Teknolojileri
+- DevOps Araçları
+
+## 🤝 Katkıda Bulunma
+
+1. Bu repoyu fork edin
+2. Yeni bir branch oluşturun (`git checkout -b feature/yeniOzellik`)
+3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik: Açıklama'`)
+4. Branch'inizi push edin (`git push origin feature/yeniOzellik`)
+5. Pull Request oluşturun
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
+
+## 👥 Geliştirici
+
+[Geliştirici Adı] - [İletişim Bilgisi]
