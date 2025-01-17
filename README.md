@@ -73,4 +73,4 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 ## 👥 Geliştirici
 
-[Geliştirici Adı] - [İletişim Bilgisi]
+[Bera EKIMCI] - [ahmedberaekimci@gmail.com]
